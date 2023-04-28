@@ -77,7 +77,7 @@ div p {
 	padding: padding: 1.1px 1px 3.2px 3.4px;;
 	
 }
-.suggestions ul li {
+.suggestions-cont {
 	list-style-type: none;
 	float: left;
 	display: block;
@@ -92,7 +92,7 @@ div p {
 	height: 4rem;
 	margin-left: 30%;
 }
-.foot-content span a {
+.foot {
 	text-align: center;
 	font-size: 18px;
 	font-decoration: none;
