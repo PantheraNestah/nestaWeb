@@ -6,7 +6,7 @@ body {
 .nav-bar {
 	list-style-type: none;
 	margin-left: 8px;
-	padding-left: 20px;
+	padding-left: 24px;
 	margin:0;
 	overflow: hidden;
 	background-color: #dfdfdf;
@@ -35,16 +35,12 @@ li a:hover,a:focus {
 	border: 1.2px solid rgba(207, 207, 207, 0.2);
 	border-radius: 15px;
 	box-shadow: -1px 2px 27px 2px rgba(0, 0, 0, 0.17);
-	/*color: #ffffff;rgba(249, 249, 249, 0);*/
 	background-image: url('images/background1.png');
-	/*background-size: cover;*/
-	/*background-attachment: fixed;
-	background-repeat: no-repeat;*/
 	background-size: 100% 100%;
 	padding: 0.8em;
 }
-div h4 {
-	color: #ffffff;
+.ads_p {
+	color: #fff;
 	font-size: 20px;
 	margin-left: 35%;
 }
@@ -59,20 +55,55 @@ div h4 {
 	box-shadow: -2px 2px 27px 2px rgba(0, 0, 0, 0.18);
 	font-size: 20px;
 	padding: 1.1px 1px 3.2px 3.4px;
-	/*padding-left: 3.4px;*/
+	padding-left: 12px;
 }
-div h3 {
-	text-align: center;
+.comm-title {
 	font-size: 20px;
-	margin-left: 35%;
+	margin-left: 20%;
+}
+
+.welc {
+	font-size: 20px;
+	margin-left: 30%;
+	color: rgba(104, 104, 104, 0.97);
 }
 div p {
 	display: inline;
 }
+
+.our-sponsors {
+	background-color: rgba(223, 243, 235, 0.3);
+	width: 80%;
+	min-height: 10rem;
+	margin-left: 10%;
+	margin-top: 3em;
+	margin-bottom: 1.5em;
+	border-radius: 10px;
+	box-shadow: -2px 2px 27px 2px rgba(0, 0, 0, 0.18);
+	font-size: 20px;
+	padding: 1.1px 1px 3.2px 3.4px;
+	padding-left: 12px;
+}
+.sponsor-image {
+	list-style-type: none;
+	width: 100px;
+	float: left;
+	padding-left: 4em;
+	padding-right: 4.5em;
+}
+li img{
+	max-width: 95px;
+}
+.sp_parag {
+	font-size: 20px;
+	margin-left: 40%;
+	color: rgba(104, 104, 104, 0.97);
+}
+
 .suggestions {
 	width: 80%;
 	min-height: 10rem;
-	margin-top: 1.5em;
+	margin-top: 3em;
 	margin-bottom: 1.5em;
 	margin-left: 10%;
 	background-color: rgba(223, 243, 235, 0.3);
@@ -87,7 +118,7 @@ div p {
 	float: left;
 	display: block;
 	overflow: hidden;
-	font-decoration: none;
+	text-decoration: none;
 	text-align: center;
 	font-size: 20px;
 	padding: 14px;
@@ -100,9 +131,8 @@ div p {
 .foot {
 	text-align: center;
 	font-size: 20px;
-	font-decoration: none;
+	text-decoration: none;
 	padding: 16px;
 	color: #404040;
 	font-family: 'Comic Neue', cursive;
 }
-
