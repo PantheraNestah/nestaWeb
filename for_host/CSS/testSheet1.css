@@ -1,0 +1,23 @@
+  * {
+  	font-family: monospace;
+  }
+  body {
+  	font-size: 22px;
+  }
+  h1, h2 {
+  	color: blue;
+  }
+  p span {
+  	text-transform: uppercase;
+  	background-color: gold;
+  }
+  p {
+  	font-size: 64px;
+  	color: limegreen;
+  }
+  .gray {
+  	color: green;
+  }
+  #secondId {
+  	font-style: italic;	
+  }

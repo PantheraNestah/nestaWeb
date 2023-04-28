@@ -1,0 +1,114 @@
+font-size: 2rem; -relative to the root
+font-size: 2em; -relative to the parent -useful in padding and margin setting.
+width: 40ch; -set sentence width to 40 characters before wrapping
+vw,vh:-viewport width and viewport height
+
+box-sizing: border-box; -width set is for the whole box
+box-sizing: content-box; -width set is for the content only
+
+margin: 2em;-top right bottom and left all equal to 2em
+margin: 1.5em 2em 3em 4em; -top right bottom left respectively.
+
+.container {
+	border: dashed red;
+	border-top-width: 5px; set thickness of top border
+	border-top-style: ridge; set style of top border to ridge
+	border-top-color: blue;
+	border: 2px outset;
+	outline: 5px solid purple; wraps outside the border.
+	outline-offset: -20px;-it wraps inside
+}
+
+in html:-
+	<div class="circle"></div>
+	
+	
+in css:-
+	.circle {
+		margin: 3rem auto;
+		background-color: gold;
+		width: 100px;
+		height: 100px;
+		border: 2px solid #000;
+		border-radius: 50px; if set to be half value of the width and height then a circle is made.
+		outline: 2px solid red;
+		outline-offset: 0.25rem;
+	}
+	
+	CSS TYPOGRAPHY:-
+Is the way that text is arranged and presented.
+ body {
+ 	padding: 10px;
+ 	font-size: 2rem;
+ }
+ input, button {
+ 	font: inherit;
+ }
+ p {
+	text-decoration: can be underline, overline, linethrough or even none;
+ 	text-transform: upper/lowercase;
+ 	text-align: left is the default for a paragraph, justify(uniform both right and left), right;
+ 	text-indent: 2em;indent first line in paragraph;
+ 	line-height: 1.2 is default,1.5 is much better; line height adds spacing btn lines in paragrapg increasing readability;
+ 	letter-spacing;
+ 	word-spacing;
+ 	font-weight: 400 is the default;
+ 	font-style: italic, oblique,
+ }
+ 
+ 
+LINKS:-
+ a {
+ 	text-decoration: none;
+ 	cursor: pointer; the default
+ 	color: ;links color before its visited
+ }
+ sudo class:-
+ 	a:visited {
+ 		color: purple; default
+ 	}
+ 	a:hover, a:focus {
+ 		color: dodgerblue;			/*specificity calculator
+ 		opacity: 0.6; trancparency.   visited,hover, active*/								
+ 										
+ 	}									
+ 	
+ 	a:active {
+ 		color: red;
+ 	}
+	
+	0724725549 
+	
+LISTS:-
+ ol {
+ 	list-style-type: upper-roman,square, disk,;
+ 	
+ }	
+ 
+<ol start="3" reversed><li></li></ol>	
+
+ul {
+	list-style-type: square;
+	text-align: center;
+	list-style-position: inside -align text with points/markers style
+	color: #00f;
+	list-style-image: url("../images/checkmark.png");
+	list-style: square url("../images/checkmark.png");
+}
+ul li:nth-child(even/2/any number) {
+	color: red;
+}
+
+ul ::marker {	sudo element marker.
+	color: #000; /*change lists marker to black color*/
+	font-family: ;
+	font-size: ;
+	content: "only $5 >> ";
+}
+	
+li:last-child a {
+	border-radius: 0 0 2rem 2rem;
+}	
+ n/b:-block level elements have a 100% width by default.
+ -you can't apply a top/bottom margin on an inline element. giving it a display value of inline-block allows such properties to be applied.Inline-block comes in handy while trying to style a list into a button/styling a list into a raw. 
+	
