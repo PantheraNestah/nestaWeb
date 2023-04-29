@@ -79,6 +79,7 @@ div p {
 	margin-top: 3em;
 	margin-bottom: 1.5em;
 	border-radius: 10px;
+	box-sizing: content-box;
 	box-shadow: -2px 2px 27px 2px rgba(0, 0, 0, 0.18);
 	font-size: 20px;
 	padding: 1.1px 1px 3.2px 3.4px;
@@ -91,6 +92,7 @@ div p {
 	float: left;
 	padding-left: 4em;
 	padding-right: 4.5em;
+	padding-top: 2em;
 }
 li img{
 	max-width: 95px;
@@ -113,6 +115,7 @@ li img{
 	padding: padding: 1.1px 1px 3.2px 3.4px;
 	padding-top: 18px;
 	overflow: hidden;
+	box-sizing: content-box;
 }
 .suggestions-cont {
 	list-style-type: none;
