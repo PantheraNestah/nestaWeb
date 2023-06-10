@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en-US">
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="../../css/compiled_css_js/css/bootstrap.css">
+		<link rel="stylesheet" href="../../css/homePage.css">		
+	</head>
+	<body class="body-home">
+		<header class="top-bar">	
+			<nav class="top-nav d-flex py-2 align-items-end justify-content-end pe-3">
+				<span class="material-symbols-outlined nav-home-icon">home</span>
+				<div class="col-5 col-md-4 text-center dropdown"> 
+					<a href="#"class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">My Courses</a>
+					<div class="top-bar-div header__nav-drop-courses dropdown-menu">
+						<li><a href="#courses"class="text-decoration-none dropdown-item">Current Session's courses</a></li>
+						<li><a href="#courses" class="text-decoration-none dropdown-item">Courses Registration</a></li>
+						<li><a href="#courses" class="text-decoration-none dropdown-item">Full Curriculum</a></li>
+						<li><a href="#courses" class="text-decoration-none dropdown-item">Performance History</a></li>
+					</div>
+				</div>
+				<div class="col-4 text-center ms-2">
+					<a href="#" class="text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Fees</a>
+					<div class="top-bar-div"></div>
+					<div class="top-bar-div dropdown-menu">
+						<li><a href="#fees" class="text-decoration-none dropdown-item">Current Fee Structure</a></li>
+						<li><a href="#fees" class="text-decoration-none dropdown-item">My Fee Statement</a></li>
+					</div>
+					
+				</div>
+			</nav> 
+		</header>
+		<main>
+			<section class="my-4 mt-md-5 mb-0 ms-2 py-1 col-8 col-md-6 d-flex flex-column">
+				<div class="profile--label rounded-pill col-md-4 col-lg-3 text-center mb-2 mx-auto d-none d-md-block"><h5 class="my-auto">My Profile</h5></div>
+				<div class="profile mb-0 mx-auto col-9">
+					<figure class="col-12 d-flex flex-column align-items-center justify-content-center">
+						<img src="../../images/azureLegacy.jpg" class="rounded-circle ms-md-4" width="90px" height="90px">
+						<fig-caption><h4 class="border m-3 col-11 text-center rounded text-nowrap">Name Here</h4></fig-caption>
+					</figure>
+				</div>
+			</section>
+            <hr class="mt-1 mb-0">
+			<div class="d-lg-flex flex-lg-row mb-4 mt-4" style="height:fit-content;">
+				<section class="courses col-lg-5 mx-lg-3 mb-lg-0">
+					<div id="courses">
+						<article id="courses-default" class="current-courses border rounded py-3 px-0 d-flex flex-column align-items-center justify-content-center">
+							<article>
+								<h3 class="mb-0" >Current Session's Courses</h3><hr class="mt-1">
+								<span class="span--absolute">My Courses</span>
+							</article>
+							<section>
+								<ul class="list-unstyled ms-4">
+									<li><p>Data Structures and algorithms</p></li>
+									<li><p>Object Oriented Programming</p></li>
+									<li><p>Systems Programming I</p></li>
+									<li><p>Calculus II</p></li>
+									<li><p>Operating Systems I</p></li>
+									<li><p>Introduction to Cyber Security</p></li>
+								</ul>
+							</section> 
+						</article>
+						<article id="courses-registration" class="d-none courses-reg flex-column align-items-center justify-content-center"></article>
+						<article id="courses-curriculum" class="full_curriculum d-none">
+							<article class="article--update-live text-center">
+								<h3>Full Curriculum</h3>
+	
+								<span class="span--absolute">Curriculum</span>
+							</article>
+							<section class="d-flex flex-column">
+								<div class="section__div-year border d-flex flex-column align-items-center justify-content-center col-11 col-md-10 mx-auto mx-md-auto">
+									<article>
+										<a class="section__div-year__a text-decoration-none" href="#">
+											<h5 class="d-inline">Year 1</h5>
+											<span class="section__div-dropper"><img width="38px" height="40px" src="../../images/expand_more.png"></span>
+										</a>
+									</article>
+									<div class="section__div-drop d-none">
+										<article>
+											<a href="#" class="text-decoration-none">
+												<h6 class="d-inline">Semester 1</h6>
+												<span class="section__div-dropper-sem"><img  width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+										<article>
+											<a href="#" class="text-decoration-none">
+												<h6 class="d-inline">Semester 2</h6>
+												<span class="section__div-dropper-sem"><img width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="section__div-year-con">
+									<div style="border-radius: 0 0 3.5px 3.5px;"> </div>
+									<div> </div>
+									<div style="border-radius: 3.5px 3.5px  0 0 ;"> </div>
+								</div>
+								<div class="section__div-year border col-11 col-md-10 mx-auto ps-3 d-flex flex-column align-items-center justify-content-center">
+									<article>
+										<a class="section__div-year__a text-decoration-none" href="#">
+											<h5 class="d-inline">Year 2</h5>
+											<span class="section__div-dropper"><img width="38px" height="40px" src="../../images/expand_more.png"></span>
+										</a>
+									</article>
+									<div class="section__div-drop d-none">
+										<article>
+											<a href="#" class=" text-decoration-none">
+												<h6 class="d-inline">Semester 1</h6>
+												<span class="section__div-dropper-sem"><img width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+										<article>
+											<a href="#" class=" text-decoration-none">
+												<h6 class="d-inline">Semester 2</h6>
+												<span class="section__div-dropper-sem"><img width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="section__div-year-con">
+									<div style="border-radius: 0 0 3.5px 3.5px;"> </div>
+									<div> </div>
+									<div style="border-radius: 3.5px 3.5px  0 0 ;"> </div>
+								</div>
+								<div class="section__div-year border col-11 col-md-10 mx-auto ps-3 d-flex flex-column align-items-center justify-content-center">
+									<article>
+										<a class="section__div-year__a  text-decoration-none" href="#">
+											<h5 class="d-inline">Year 3</h5>
+											<span class="section__div-dropper"><img width="38px" height="40px" src="../../images/expand_more.png"></span>
+										</a>
+									</article>
+									<div class="section__div-drop d-none">
+										<article>
+											<a href="#" class=" text-decoration-none">
+												<h6 class="d-inline">Semester 1</h6>
+												<span class="section__div-dropper-sem"><img width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+										<article>
+											<a href="#" class=" text-decoration-none">
+												<h6 class="d-inline">Semester 2</h6>
+												<span class="section__div-dropper-sem"><img width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="section__div-year-con">
+									<div style="border-radius: 0 0 3.5px 3.5px;"> </div>
+									<div> </div>
+									<div style="border-radius: 3.5px 3.5px  0 0 ;"> </div>
+								</div>
+								<div class="section__div-year border col-11 col-md-10 mx-auto ps-3 d-flex flex-column align-items-center justify-content-center">
+									<article>
+										<a class="section__div-year__a text-decoration-none" href="#">
+											<h5 class="d-inline">Year 4</h5>
+											<span class="section__div-dropper"><img width="38px" height="40px" src="../../images/expand_more.png"></span>
+										</a>
+									</article>
+									<div class="section__div-drop d-none">
+										<article>
+											<a href="#" class="text-decoration-none">
+												<h6 class="d-inline">Semester 1</h6>
+												<span class="section__div-dropper-sem"><img  width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+										<article>
+											<a href="#" class="text-decoration-none">
+												<h6 class="d-inline">Semester 2</h6>
+												<span class="section__div-dropper-sem"><img  width="38px" height="40px" src="../../images/arrow_drop_down.png"></span>
+											</a>
+											<div class="section__div-drop-sem d-none">
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+						</article>
+					</div>
+				</section>
+				<section class="section-schedule border mx-auto px-0 pt-0 col-11 col-lg-6 my-lg-0 position-relative rounded-top">
+					<div class="section-schedule-title col-12 m-0 py-1 text-center rounded-top fw-bolder">Current Session's Time Schedule</div><hr class="m-0">
+					<div class="p-5 mb-4">Time table</div>
+					<div class="books-shelve p-2 px-2 px-md-3 border col-12 position-absolute bottom-0 d-flex overflow-auto" style="scrollbar-width:none;">
+						<div class="border rounded col-4 col-md-3 m-4 my-1 d-flex align-items-center justify-content-center text-nowrap py-4" style="background-color:rgba(255,255,255,0.9);">Book</div>
+						<div class="border rounded col-4 col-md-3 m-4 my-1 d-flex align-items-center justify-content-center text-nowrap py-4" style="background-color:rgba(255,255,255,0.9);">Book</div>
+						<div class="border rounded col-4 col-md-3 m-4 my-1 d-flex align-items-center justify-content-center text-nowrap py-4" style="background-color:rgba(255,255,255,0.9);">Book</div>
+						<div class="border rounded col-4 col-md-3 m-4 my-1 d-flex align-items-center justify-content-center text-nowrap py-4" style="background-color:rgba(255,255,255,0.9);">Book</div>
+						<div class="border rounded col-4 col-md-3 m-4 my-1 d-flex align-items-center justify-content-center text-nowrap py-4" style="background-color:rgba(255,255,255,0.9);">Book</div>
+					</div>
+				</section>
+			</div>
+			<section class="section__div-ads col-11 rounded text-center p-5">
+				<div>
+					<h5>Advertise with us</h5>
+				</div>
+			</section>
+			<div class="d-lg-flex align-content-space-between my-4"> 
+				<section id="fees-container"  class="section-fees border p-5 text-center mx-lg-auto my-lg-0 col-lg-5">
+					<div id="fees" class="" style="height: 30%;">Fees</div>
+				</section>
+				<section class="section-academic-news border p-2 pt-0 pb-2 px-0 col-lg-6 my-lg-0 mx-lg-auto rounded-top">
+					<div class="section-academic-news-title p-2 text-center rounded-top fw-bolder">Academic Highlights</div><hr class="m-0">
+					<article>
+						<div class="border p-4 py-3 col-11 col-lg-10 mx-auto my-3 rounded" style="background-color:rgba(255,255,255,0.9)">News highlight <span class="fst-italic fw-light "><a href="#" class="text-decoration-none">...to News</a></span></div>
+						<div class="border p-4 py-3 col-11 col-lg-10 mx-auto my-3 rounded" style="background-color:rgba(255,255,255,0.9)">News highlight <span class="fst-italic fw-light "><a href="#" class="text-decoration-none">...to News</a></span></div>
+						<div class="border p-4 py-3 col-11 col-lg-10 mx-auto my-3 rounded" style="background-color:rgba(255,255,255,0.9)">News highlight <span class="fst-italic fw-light "><a href="#" class="text-decoration-none">...to News</a></span></div>
+						<div class="border p-4 py-3 col-11 col-lg-10 mx-auto my-3 rounded" style="background-color:rgba(255,255,255,0.9)">News highlight <span class="fst-italic fw-light "><a href="#" class="text-decoration-none">...to News</a></span></div>
+						<div class="border p-4 py-3 col-11 col-lg-10 mx-auto my-3 rounded" style="background-color:rgba(255,255,255,0.9)">News highlight <span class="fst-italic fw-light "><a href="#" class="text-decoration-none">...to News</a></span></div>
+					</article>
+				</section>
+			</div>
+			<section  class="section__div-ads col-11 text-center p-5 rounded">
+				<div>
+					<h5>Advertise with us</h5>
+				</div>
+			</section>
+			<section class="py-4">
+				<div class="d-flex align-items-center justify-content-center flex-column col-lg-6 mx-auto">
+					<h4 class="contacts-label col-9 col-md-6 col-lg-7 fw-bolder">Talk to us @:</h4>
+					<div class="col-8 col-md-5 col-lg-6">
+						<ul class="contacts-list list-unstyled">
+							<li>Email: <a href="" class="text-decoration-none">info@edu.detroit.ac.ke</a></li>
+							<li>Twitter: <a href="" class="text-decoration-none">@detroit tech school</a></li>
+							<li>facebook: <a href="" class="text-decoration-none">@detroit info page</a></li>
+							<li>Phone: <a href="" class="text-decoration-none">+254798675423</a></li>
+						</ul>
+						<div class="contact-icons d-flex align-items-center justify-content-center p-3 pb-2">
+								<span class="col-3 col-lg-2 me-3"><img src="../../images/chat.png" width="30px"></span>
+								<span class="col-3 col-lg-2 me-3"><img src="../../images/phone.png" width="30px"></span>
+								<span class="col-3 col-lg-2"><img src="../../images/mail.png" width="30px"></span>
+						</div>
+					</div>
+				</div>
+			</section>
+            <footer class="rights">
+                <div class="mt-3 pt-2 text-center"><p class="mb-0">&#169copyright, Detroit Tech school 2023</p></div>
+            </footer>
+		</main>
+		<script src="../../css/compiled_css_js/js/bootstrap.bundle.js"></script>
+		<script src="../../scripts/script-4-responsive.js"></script>
+	</body>	
+</html>	
