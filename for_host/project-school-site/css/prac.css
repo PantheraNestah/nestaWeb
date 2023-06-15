@@ -1,9 +1,0 @@
-.courses,.full_curriculum{
-    height: 70vh;
-}
-.scroll-vert{
-    overflow-x: scroll;
-}
-.scroll-vert::-webkit-scrollbar{
-    display: none;
-}
